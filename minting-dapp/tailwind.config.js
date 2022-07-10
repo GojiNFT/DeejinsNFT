@@ -14,12 +14,12 @@ module.exports = {
           from_bg: colors.slate[100],
           to_bg: colors.slate[200],
         },
-        titles: colors.indigo[600],
+        titles: colors.neutral[600],
         links: {
-          txt: colors.indigo[600],
-          hover_txt: colors.indigo[700],
+          txt: colors.neutral[600],
+          hover_txt: colors.neutral[700],
         },
-        loading_spinner: colors.indigo[500],
+        loading_spinner: colors.neutral[500],
         popups: {
           bg: colors.white,
           txt: colors.slate[800],
@@ -47,11 +47,11 @@ module.exports = {
         },
         btn_primary: {
           txt: colors.white,
-          bg: colors.indigo[500],
-          border: colors.indigo[500],
+          bg: colors.neutral[500],
+          border: colors.neutral[500],
           hover_txt: colors.white,
-          hover_bg: colors.indigo[600],
-          hover_border: colors.indigo[600],
+          hover_bg: colors.neutral[600],
+          hover_border: colors.neutral[600],
         },
         btn_error: {
           txt: colors.white,
@@ -61,24 +61,24 @@ module.exports = {
           hover_bg: colors.red[600],
           hover_border: colors.red[600],
         },
-        label: colors.indigo[600],
+        label: colors.neutral[600],
         txt_input: {
-          txt: colors.indigo[600],
+          txt: colors.neutral[600],
           bg: colors.white,
           border: colors.slate[200],
-          focus_txt: colors.indigo[600],
+          focus_txt: colors.neutral[600],
           focus_bg: colors.slate[50],
-          focus_border: colors.indigo[300],
+          focus_border: colors.neutral[300],
         },
         
         // Whitelist proof widget
         wl_message: {
           txt: colors.slate[800],
-          bg: colors.indigo[100],
+          bg: colors.neutral[100],
         },
 
         // Mint widget
-        token_preview: colors.blue[300],
+        token_preview: colors.neutral[900],
       },
     },
   },

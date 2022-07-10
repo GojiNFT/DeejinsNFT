@@ -9,14 +9,14 @@ const CollectionConfig: CollectionConfigInterface = {
   // The contract name can be updated using the following command:
   // yarn rename-contract NEW_CONTRACT_NAME
   // Please DO NOT change it manually!
-  contractName: 'Deejins',
-  tokenName: 'Deejins',
-  tokenSymbol: 'DJNS',
-    hiddenMetadataUri: 'ipfs://QmVnengxS2VduKYxUMFXLBmwvYEDoGgszpyybJ13uXHox7/hidden.json',
-  maxSupply: 2345,
+  contractName: 'Emoonji',
+  tokenName: 'Emoonji',
+  tokenSymbol: 'EMJ',
+    hiddenMetadataUri: 'ipfs://QmfQRHPiWQ8GpxB6hQNFjSoeApZRzTHXjEpvYcHzb6oKc8/Hidden.json',
+  maxSupply: 3333,
   whitelistSale: {
     price: 0.00,
-    maxMintAmountPerTx: 4,
+    maxMintAmountPerTx: 100,
   },
   preSale: {
     price: 0.00,
@@ -24,9 +24,9 @@ const CollectionConfig: CollectionConfigInterface = {
   },
   publicSale: {
     price: 0.00,
-    maxMintAmountPerTx: 3,
+    maxMintAmountPerTx: 5,
   },
-    contractAddress: "0x3ed1c90f3b0b7812e78151f43b846bbbe8e4d421",
+    contractAddress: "0x0B69a54b3E531A516752900c23FE00d36EdBb71a",
   marketplaceIdentifier: 'my-nft-token',
   marketplaceConfig: Marketplaces.openSea,
   whitelistAddresses,
